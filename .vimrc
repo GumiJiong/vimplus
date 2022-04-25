@@ -358,4 +358,6 @@ if filereadable(expand($HOME . '/.vimrc.custom.config'))
     source $HOME/.vimrc.custom.config
 endif
 
-
+" au! Syntax markdown source /home/jiong/.vim/markdown.vim
+" au BufRead,BufNewFile *.md set filetype=markdown
+" au BufRead,BufNewFile *.markdown set filetype=markdown
