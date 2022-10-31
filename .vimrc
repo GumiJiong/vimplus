@@ -268,8 +268,10 @@ let g:NERDTreeDirArrowCollapsible='▼'
 
 " YCM
 " 如果不指定python解释器路径，ycm会自己搜索一个合适的(与编译ycm时使用的python版本匹配)
-" let g:ycm_server_python_interpreter = '/usr/bin/python2.7'
+let g:ycm_server_python3_interpreter = '/home/jiong/Software/anaconda3/bin/python'
 let g:ycm_confirm_extra_conf = 0 
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_key_invoke_completion = 'kl'
 let g:ycm_error_symbol = '✗'
 let g:ycm_warning_symbol = '✹'
 let g:ycm_seed_identifiers_with_syntax = 1 
