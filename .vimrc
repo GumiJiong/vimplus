@@ -210,7 +210,7 @@ colorscheme dracula
 
 " base16: 白 // biogoo 粉 黑 // night_owl 天蓝 灰绿 // tomorrow 紫 青
 " airline
-let g:airline_theme="night_owl"
+let g:airline_theme="base16"
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 if !exists('g:airline_symbols')
